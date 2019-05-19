@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Hans/Desktop/pa3/cs221util/HSLAPixel.h
+iostream
+-
+sstream
+-
+
+/Users/Hans/Desktop/pa3/cs221util/PNG.h
+string
+-
+vector
+-
+HSLAPixel.h
+/Users/Hans/Desktop/pa3/cs221util/HSLAPixel.h
+
+/Users/Hans/Desktop/pa3/stats.cpp
+stats.h
+/Users/Hans/Desktop/pa3/stats.h
+
+/Users/Hans/Desktop/pa3/stats.h
+cs221util/PNG.h
+/Users/Hans/Desktop/pa3/cs221util/PNG.h
+cs221util/HSLAPixel.h
+/Users/Hans/Desktop/pa3/cs221util/HSLAPixel.h
+utility
+-
+cmath
+-
+vector
+-
+
