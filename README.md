@@ -13,7 +13,7 @@ In this part, we cut PNG into several rectangles and put them into nodes in a ch
 ![Special Block Color Changed](https://github.com/HansLin99/ImagePlayer/blob/master/Image%20Player%20Part%201/images/given-blocktest.png)
 ![Watermark](https://github.com/HansLin99/ImagePlayer/blob/master/files/out-watermark%20copy.png)
 
-\*You can find all the output images in the *images* folder.
+\*You can find all the output images in the ***images*** folder.
 
 
 ## Part 2:
