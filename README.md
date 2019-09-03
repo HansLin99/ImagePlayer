@@ -18,10 +18,19 @@ In this part, we cut PNG into several rectangles and put them into nodes in a ch
 
 ## Part 2:
 In this part, we try to implement a color flood algorithm.
+![BFS](https://github.com/HansLin99/ImagePlayer/blob/master/files/bfsraingirl.gif "BFS")
+![DFS](https://github.com/HansLin99/ImagePlayer/blob/master/files/dfsraingirl.gif "DFS")
 
+We created several color spread pattern and used BFS/DFS to fill the color into each pixel.
+
+\*You can find all the output images in the ***images*** folder.
 
 ## Part 3:
 
-Description:
-Lossy compression using a quadTree structure. The image is cut into pieces based on minimal entropy of splitting point.
+In this part, we try to implement simple lossy compression on PNG image.
+![Lossy Compression](https://github.com/HansLin99/ImagePlayer/blob/master/files/PA3pic1.png "Original")
+![Lossy Compression](https://github.com/HansLin99/ImagePlayer/blob/master/files/outputPA3pic1.png "Output")
 
+---
+
+We cut the image into several small pieces and put them into nodes in a quad-tree structure(4 branches tree).
