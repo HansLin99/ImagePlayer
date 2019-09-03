@@ -17,7 +17,8 @@ In this part, we cut PNG into several rectangles and put them into nodes in a ch
 
 
 ## Part 2:
-In this part, we try to implement a color flood algorithm.
+In this part, we try to implement a color flood algorithm.   
+
 ![BFS](https://github.com/HansLin99/ImagePlayer/blob/master/files/bfsraingirl.gif "BFS")
 ![DFS](https://github.com/HansLin99/ImagePlayer/blob/master/files/dfsraingirl.gif "DFS")
 
