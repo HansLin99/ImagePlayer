@@ -28,10 +28,13 @@ We created several color spread pattern and used BFS/DFS to fill the color into 
 
 ## Part 3:
 
-In this part, we try to implement simple lossy compression on PNG image.
+In this part, we try to implement simple lossy compression on PNG image.  
+
 ![Lossy Compression](https://github.com/HansLin99/ImagePlayer/blob/master/files/PA3pic1.png "Original")
 ![Lossy Compression](https://github.com/HansLin99/ImagePlayer/blob/master/files/outputPA3pic1.png "Output")
 
 ---
 
-We cut the image into several small pieces and put them into nodes in a quad-tree structure(4 branches tree).
+We calculated the minimal entropy of each splitting point first. Then we cut the image into several small pieces based on the splitting point and put them into nodes in a quad-tree structure(4 branches tree).   
+
+After the image was saved into the tree, we deleted the nodes that had similar color with its parent node. Finally, we assembled the pieces and filled in the empty nodes in the tree with their parents' color. Job done!
