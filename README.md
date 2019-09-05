@@ -1,6 +1,6 @@
 # ImagePlayer
 ***Overview***:
-We used a simplified PNG class to build this program. Inside the program, we manipulated pixels using different data structures and re-color the image to make a different look. Finally, we learn about lossy compression to PNG.
+We used a simplified PNG class which consists of HSLAPixels(Hue, Saturation, Luminance, Alpha) to build this program. Inside the program, we manipulated pixels using different data structures and re-color the image to make a different look. Finally, we learn about lossy compression to PNG.
 
 ## Part 1:
 In this part, we cut PNG into several rectangles and put them into nodes in a chain structure(linked list). 
