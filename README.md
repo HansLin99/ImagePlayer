@@ -5,7 +5,7 @@ We used a simplified PNG class which consists of HSLAPixels(Hue, Saturation, Lum
 ## Part 1:
 In this part, we cut PNG into several rectangles and put them into nodes in a chain structure(linked list). 
 
-- We changed the sequence of the nodes to re-assemble the image.
+- We changed the sequence of the nodes to reassemble the image.
 - We changed the color of some block.
 - **We changed the color of some special pixels to make a watermark (a small try in lab)**
 
